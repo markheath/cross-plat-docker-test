@@ -1,0 +1,10 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome from @System.Environment.OSVersion.VersionString</h1>
+    <p>From @ViewData["Url"]: @ViewData["Message"]</p>
+</div>
